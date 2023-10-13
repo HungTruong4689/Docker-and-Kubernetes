@@ -7,3 +7,9 @@ docker run ---> new container based on image
 attached and detached docker
 
 interactive docker start -i -a --->input output
+
+//delete an image
+container should be removed first
+docker rm container
+docker rmi image
+docker rm prune
