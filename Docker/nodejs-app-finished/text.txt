@@ -15,3 +15,5 @@ docker rmi image
 docker rm prune
 
 Automatically removed container --rm after docker start
+
+docker cp movedfolder destination
