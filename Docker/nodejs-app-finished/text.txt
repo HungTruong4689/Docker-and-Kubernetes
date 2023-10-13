@@ -5,3 +5,5 @@ docker ps
 docker run ---> new container based on image
 
 attached and detached docker
+
+interactive docker start -i -a --->input output
