@@ -1,0 +1,7 @@
+docker --help
+
+docker ps
+
+docker run ---> new container based on image
+
+attached and detached docker
