@@ -30,3 +30,6 @@ Volumes can be more safely shared among multiple containers.
 Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
 New volumes can have their content pre-populated by a container.
 Volumes on Docker Desktop have much higher performance than bind mounts from Mac and Windows hosts.
+
+Choose the -v or --mount flag
+In general, --mount is more explicit and verbose. The biggest difference is that the -v syntax combines all the options together in one field, while the --mount syntax separates them. Here is a comparison of the syntax for each flag.
