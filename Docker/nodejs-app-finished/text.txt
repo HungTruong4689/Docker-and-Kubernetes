@@ -46,3 +46,7 @@ I don't use them in the lectures, since I want to show an approach that works fo
 
 Using nodemon
 Change script ---> cmd npm start
+
+anonymous volumes
+named volumes
+bind amount
