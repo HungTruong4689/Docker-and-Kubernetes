@@ -52,3 +52,5 @@ named volumes
 bind amount
 
 dockerignore
+
+docker history image
