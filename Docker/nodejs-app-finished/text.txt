@@ -54,3 +54,7 @@ bind amount
 dockerignore
 
 docker history image
+
+Using build argument
+
+Building multiple application
