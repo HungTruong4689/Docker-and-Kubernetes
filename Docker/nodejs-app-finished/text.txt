@@ -50,3 +50,5 @@ Change script ---> cmd npm start
 anonymous volumes
 named volumes
 bind amount
+
+dockerignore
