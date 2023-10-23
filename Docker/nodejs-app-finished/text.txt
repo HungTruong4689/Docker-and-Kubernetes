@@ -58,3 +58,4 @@ docker history image
 Using build argument
 
 Building multiple application
+ public app to show params
