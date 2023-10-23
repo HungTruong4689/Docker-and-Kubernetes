@@ -61,3 +61,5 @@ Building multiple application
  public app to show params
 
  create container for spas
+
+ cross-container network
