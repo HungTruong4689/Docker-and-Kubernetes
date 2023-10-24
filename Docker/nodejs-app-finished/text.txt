@@ -69,3 +69,5 @@ Building multiple application
 
  creating a compose file
  docker compose up and down
+
+ adding another container
