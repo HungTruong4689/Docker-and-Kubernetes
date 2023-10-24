@@ -64,3 +64,5 @@ Building multiple application
 
  cross-container network
  adding data persistence to mongoDB
+
+ Docker compose
