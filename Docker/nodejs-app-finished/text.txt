@@ -68,3 +68,4 @@ Building multiple application
  Docker compose
 
  creating a compose file
+ docker compose up and down
