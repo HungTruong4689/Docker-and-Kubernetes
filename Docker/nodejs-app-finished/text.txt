@@ -71,3 +71,5 @@ Building multiple application
  docker compose up and down
 
  adding another container
+
+ ngix container
