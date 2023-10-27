@@ -86,3 +86,5 @@ Building multiple application
 
  docker compose
 
+ local and remote
+
