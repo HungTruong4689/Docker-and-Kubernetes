@@ -26,3 +26,10 @@ why use alpine image
 -d detached mode : runs in the background and we can't directly see it logs
 -p port 3000
 
+##Publishing our microservice
+```
+    docker login
+    docker push 
+    docker run
+```
+
