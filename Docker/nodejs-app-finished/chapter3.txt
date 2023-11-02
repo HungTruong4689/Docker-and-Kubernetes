@@ -13,3 +13,16 @@ IMAGEID: show the unique Image IMAGEID
 CREATED:
 SIZE:
 why use alpine image
+
+
+##Docker container
+```
+    docker run
+```
+
+```
+    docker run -d -p 3000:3000 docker-image
+```
+-d detached mode : runs in the background and we can't directly see it logs
+-p port 3000
+
