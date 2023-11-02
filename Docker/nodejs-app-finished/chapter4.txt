@@ -4,3 +4,7 @@
  docker-compose --version
  ```
 ### Creating the docker compose file
+
+```
+    docker compose up
+```
