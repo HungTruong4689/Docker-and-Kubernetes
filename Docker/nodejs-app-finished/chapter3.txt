@@ -44,3 +44,16 @@ why use alpine image
     docker tag image-name registry-url/<name-image-version>
 ```
 
+### Booting our microservice from the registry
+```
+    docker ps
+```
+showing the running and stopped container
+```
+    docker kill dockerId
+    docker rm dockerId
+```
+
+```
+    docker rmi dockerId --force
+```
