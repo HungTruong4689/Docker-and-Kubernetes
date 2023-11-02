@@ -8,3 +8,9 @@
 ```
     docker compose up
 ```
+
+
+Showing all containers of docker compose
+```
+    docker compose ps
+```
