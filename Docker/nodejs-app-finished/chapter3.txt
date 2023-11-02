@@ -33,3 +33,14 @@ why use alpine image
     docker run
 ```
 
+### Creating a private container registry
+### pushing our microservice to the registry
+
+```
+ docker login your-registry-url --username your-username password your-password
+```
+
+```
+    docker tag image-name registry-url/<name-image-version>
+```
+
