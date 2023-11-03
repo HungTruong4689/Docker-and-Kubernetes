@@ -24,11 +24,11 @@ Docker compose for Azure storage
 services:
     db: [1] adds a mongodb database
         image: mongo:4.2.8
-    container_name: 2
+        container_name: [2] Set the image name and version
         db
-    ports: 3
+    ports: [3] Sets the name of the container
         - "4000:27017"
-    restart:4
+    restart: [4] Maps the mongodb standard pport 27017 to 4000 on our host OS
         alwayy
     azure-storage:
         image: azure-storage
