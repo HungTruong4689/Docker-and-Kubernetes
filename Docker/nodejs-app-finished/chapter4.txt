@@ -14,3 +14,45 @@ Showing all containers of docker compose
 ```
     docker compose ps
 ```
+
+```
+    docker compose down
+```
+
+###Adding file storage to our application
+Docker compose for Azure storage
+services:
+    db: [1] adds a mongodb database
+        image: mongo:4.2.8
+    container_name: 2
+        db
+    ports: 3
+        - "4000:27017"
+    restart:4
+        alwayy
+    azure-storage:
+        image: azure-storage
+        build: 
+            context: ./azure-storage
+            dockerfile: Dockerfile
+            container_name: video-storage
+            ports: - "4001:80"
+            environment: 
+                - PORT=80
+                - STORAGE_ACCOUNT_NAME= <YOUR AZURE STORAGE ACCOUNT NAME HERE>
+                - STORAGE_ACCESS_KEY = <your Azure storage account key here>
+                restart: "no"
+    vido-streaming:
+        image: video-streaming
+        build: 
+            context: ./video-streaming
+            dockerfile: Dockerfile
+            container_name:video-streaming
+            ports: - "4002:3000"
+            environment: - PORT=80
+                        - DBHOST= mongodb://db:27017
+                        - DBNAME=video-streaming [7]
+                        - VIDEO_STORAGE_HOST=video-storage
+                        - VIDEO_STORAGE_PORT=80
+                        restart: "no"
+
