@@ -1,1 +1,3 @@
 ##COmmunication between microservice
+
+RabbitMQ ---> queuing messages
