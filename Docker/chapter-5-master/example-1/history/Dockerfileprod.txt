@@ -1,8 +1,8 @@
-FROM node:12.18.1-alpine
+FROM node:12.18.1-alpine  [1] alpine Linux image since it makes the image smaller
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app 
 COPY package*.json ./
-RUN npm install --only=production
-COPY ./src ./src
+RUN npm install --only=production [2] install production dependencies
+COPY ./src ./src [3] copy source code into the image
 
-CMD npm start
+CMD npm start [4] start the docker in the production mode
