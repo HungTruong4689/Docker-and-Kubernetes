@@ -57,3 +57,25 @@ services:
                         restart: "no"
 
 ##4.5.4 Database per application or database per application
+
+```
+    docker-compose --version
+```
+
+Builds and instantiates and application composed of multiple containers as defined by the docker compose
+```
+    docker-compose up --build
+```
+
+Stops all containers in the application
+```
+    docker-compose stop
+```
+
+Stops and destroys the application
+```
+    docker-compose down
+```
+
+```
+```
