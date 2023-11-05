@@ -1,8 +1,8 @@
-FROM node:12.18.1-alpine
+FROM node:12.18.1-alpine [1] we can choose the non-alpine linux here
 
 WORKDIR /usr/src/app
-COPY package*.json ./
+COPY package*.json ./ [2] copy the package json file into the image
 
-CMD npm config set cache-min 9999999 && \
-    npm install && \
-    npm run start:dev
+CMD npm config set cache-min 9999999 && \ [3] enables caching for npm install
+    npm install && \ [4] 
+    npm run start:dev [5] start the microservice in the development mode
