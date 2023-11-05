@@ -56,3 +56,4 @@ services:
                         - VIDEO_STORAGE_PORT=80
                         restart: "no"
 
+##4.5.4 Database per application or database per application
